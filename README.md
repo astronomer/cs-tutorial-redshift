@@ -1,5 +1,4 @@
 # Customer Success Redshift Tutorial
-___
 
 This DAG demonstrates how to use the following:
 
@@ -11,14 +10,12 @@ This DAG demonstrates how to use the following:
 - `S3ToRedshiftOperator`
 
 # Prerequisites
-___
 
 - [Astro CLI](https://docs.astronomer.io/software/quickstart) or [Astrocloud CLI](https://docs.astronomer.io/astro/install-cli)
 - Accessible Redshift Cluster
 - Airflow Instance (If you plan on deploying)
 
 # Steps to Use
-___
 
 >If you are using the `astro` CLI instead of the `astrocloud` CLI, you can simply replace `astrocloud` in the below commands with `astro`
 

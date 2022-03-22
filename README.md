@@ -13,6 +13,7 @@ This DAG demonstrates how to use the following:
 
 - [Astro CLI](https://docs.astronomer.io/software/quickstart) or [Astrocloud CLI](https://docs.astronomer.io/astro/install-cli)
 - Accessible Redshift Cluster
+- Account with read/write access to an S3 Bucket
 - Airflow Instance (If you plan on deploying)
 
 # Steps to Use
@@ -33,11 +34,11 @@ This DAG demonstrates how to use the following:
 
     - Connection Id: redshift_default
     - Connection Type: Amazon Redshift
-    - Host: <Your-Redshift-Endpoint>
-    - Schema: <Your-Redshift-Database>
-    - Login: <Your-Redshift-Login>
-    - Password: <Your-Redshift-Password>
-    - Port: <Your-Redshift-Port>
+    - Host: `<Your-Redshift-Endpoint>`
+    - Schema: `<Your-Redshift-Database>`
+    - Login: `<Your-Redshift-Login>`
+    - Password: `<Your-Redshift-Password>`
+    - Port: `<Your-Redshift-Port>`
 
 
 4. Add another connection with the following parameters:
